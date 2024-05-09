@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Store | Detalle</title>
+  <link rel="stylesheet" href="/sass/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+  <!--ICONO PÁGINA-->
+  <link rel="icon" href="/img/loguito.png">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="left-section">
+        <a href="/">
+            <h1 class="logo"><img class="img__logo" src="/img/loguito.png"></h1>
+            </a>
+          </div>
+          <div class="center-section">
+            <nav class="nav__header">
+              <ul>
+                <li><a href="/">INICIO</a></li>
+            <li class="productos-nav"><a href="#">PRODUCTOS</a>
+              <ul class="submenu">
+                <li><a href="/products/figures">FIGURAS</a></li>
+                <li><a href="#">VESTIMENTA</a></li>
+                <li><a href="#">MANGAS</a></li>
+              </ul>
+            </li>
+            <li class="contacto"><a href="#">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>      
+      <div class="right-section">
+        <div class="icons">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a href="/users/login"><i class="fas fa-user"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <body>
+
+	<!-- product detail -->
+    <div class="container__detail__product">
+        <div class="row">
+          <div class="productos__contenedor__segundo">
+            <article class="product-detail-info">
+              <h2 class="product-detail-title"><%= product.name %></h2>
+                <p class="product-detail-price">
+                  $<%= toThousand(product.price) %>
+                </p>
+                <h2 class="product-detail-description"><%= product.description %></h2>
+              <ul class="actions-list">
+                <li>
+                  <i class="fas fa-credit-card"></i>
+                  <p>Pagá en 12 cuotas sin interes</p>
+                </li>
+                <li>
+                  <i class="fas fa-store"></i>
+                  <p>Retiro gratis en locales del vendedor</p>
+                </li>
+              </ul>
+              <div class="buttom__buy">
+              <a href="#" class="buy-now-button">COMPRAR AHORA</a>
+              <a href="#" class="buy-now-button">AGREGAR AL CARRITO</a>
+              </div>
+            </article>
+          </div>
+          <div class="productos__contenedor">
+            <img src="/img/<%= product.image %>" alt="product image" class="product-detail-img">
+          </div>
+        </div>
+      </div>
+      <br>
+      <footer>
+        <div class="container">
+          <p>&copy; 2024 Tienda Anime</p>
+        </div>
+      </footer>   
+</body>
+</html>
