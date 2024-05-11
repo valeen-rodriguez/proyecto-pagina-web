@@ -1,62 +1,62 @@
 [
     {
-        "id": 1,
+        "id": 73,
         "name": "Naruto - Remera",
         "image": "remera1.webp",
-        "price": "15000",
+        "price": 15000,
         "description": "Una remera con el emblema del personaje principal de Naruto, el ninja adolescente que sueña con convertirse en el Hokage de su aldea.",
         "category": "remera"
     },
     {
-        "id": 2,
+        "id": 74,
         "name": "Naruto - Remera",
         "image": "remera2.webp",
-        "price": "14000",
+        "price": 14000,
         "description": "Una remera con una ilustración del personaje Naruto Uzumaki en su icónica pose de correr, con el emblema de su aldea en el fondo.",
         "category": "remera"
     },
     {
-        "id": 3,
+        "id": 75,
         "name": "Bocchi - Remera",
         "image": "remera3.webp",
-        "price": "12000",
+        "price": 12000,
         "description": "Una remera con un diseño inspirado en el personaje de Hitori Bocchi del anime Hitori Bocchi no Marumaru Seikatsu, conocida por su timidez y su intento de hacer amigos.",
         "category": "remera"
     },
     {
-        "id": 4,
+        "id": 76,
         "name": "Tonari no Totoro - Remera",
         "image": "remera4.jpg",
-        "price": "10000",
+        "price": 10000,
         "description": "Una remera con una ilustración del adorable Totoro, el espíritu del bosque de la película de Studio Ghibli 'Mi Vecino Totoro'.",
         "category": "remera"
     },
     {
-        "id": 5,
+        "id": 77,
         "name": "Sailor Moon - Remera",
         "image": "remera5.webp",
-        "price": "10999",
+        "price": 10999,
         "description": "Una remera con el diseño del símbolo de la Luna de Sailor Moon, el icónico personaje de la serie de anime y manga 'Sailor Moon' que lucha contra el mal en el nombre de la luna.",
         "category": "remera"
     },
     {
-        "id": 6,
+        "id": 78,
         "name": "Jujutsu Kaisen - Remera",
         "image": "remera6.jpg",
-        "price": "13000",
+        "price": 13000,
         "description": "Una remera con una impresión de alta calidad del logo del anime Jujutsu Kaisen, que sigue las aventuras de Yuji Itadori, un estudiante con habilidades mágicas.",
         "category": "remera"
     },
     {
-        "id": 7,
+        "id": 79,
         "name": "Dragon Ball Z - Remera",
         "image": "remera7.webp",
-        "price": "8000",
+        "price": 8000,
         "description": "Una remera con una ilustración de Goku en su forma Super Saiyan, una de las transformaciones más icónicas del anime Dragon Ball Z.",
         "category": "remera"
     },
     {
-        "id": 8,
+        "id": 80,
         "name": "Dr. Stone - Remera",
         "image": "remera8.webp",
         "price": "15000",

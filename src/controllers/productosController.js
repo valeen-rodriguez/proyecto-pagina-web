@@ -1,7 +1,33 @@
 const fs = require('fs');
 const path = require('path');
+const productos = require('../data/productosAll.json');
 
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+
+const calcularPrecioTotal = (carrito) => {
+	let totalPrice = 0;
+	carrito.forEach(item => {
+	  totalPrice += item.price;
+	});
+	return totalPrice;
+};
+
+const getCart = () => {
+    const cartFilePath = path.join(__dirname, '../data/cart.json');
+    try {
+        const cartData = fs.readFileSync(cartFilePath, 'utf-8');
+        return JSON.parse(cartData);
+    } catch (error) {
+        return [];
+    }
+};
+
+const saveCart = (cart) => {
+    const cartFilePath = path.join(__dirname, '../data/cart.json');
+    fs.writeFileSync(cartFilePath, JSON.stringify(cart, null, 2));
+};
+
+let carrito = getCart();
 
 //////////////////////////////
 const getProductosAll = () => {
@@ -93,6 +119,37 @@ const controller = {
 		const product = products.find(product => product.id == id);
 		res.render("detailProducto", { title: product.name, product, toThousand });
 	},
+
+	
+	//CARRITO//
+	carrito: (req, res) => {
+		const productsJson = getJson();
+		const productManga = keepJson();
+		const productClothes = nowJson();
+		const productsAll = getProductosAll();
+		const products = [...productsJson, ...productsAll, ...productManga, ...productClothes];
+		const totalPrice = calcularPrecioTotal(carrito);
+		res.render('carrito', { cart: carrito, products: products, toThousand, totalPrice });
+	},
+	
+	addToCart: (req, res) => {
+		const productId = req.body.productId;
+		const productsJson = getJson();
+		const productManga = keepJson();
+		const productClothes = nowJson();
+		const productsAll = getProductosAll();
+		const products = [...productsJson, ...productsAll, ...productManga, ...productClothes];
+		const productoEncontrado = products.find(producto => producto.id == productId);
+	
+		if (productoEncontrado) {
+			carrito.push(productoEncontrado);
+			saveCart(carrito);
+			res.redirect('/products/carrito');
+		} else {
+			res.status(404).send('Producto no encontrado');
+		}
+	}
+
 };
 
 module.exports = controller;

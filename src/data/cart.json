@@ -1,0 +1,42 @@
+[
+  {
+    "id": 66,
+    "name": "Ao Haru Ride - Manga",
+    "image": "haru1.avif",
+    "price": 15000,
+    "description": "Ao Haru Ride sigue la vida de Futaba Yoshioka, quien se reencuentra con su amor de la secundaria, Kou Mabuchi, después de varios años. A través de encuentros y desencuentros, ambos enfrentan sus sentimientos pasados y presentes mientras navegan por las complejidades del amor adolescente.",
+    "category": "romance"
+  },
+  {
+    "id": 78,
+    "name": "Jujutsu Kaisen - Remera",
+    "image": "remera6.jpg",
+    "price": 13000,
+    "description": "Una remera con una impresión de alta calidad del logo del anime Jujutsu Kaisen, que sigue las aventuras de Yuji Itadori, un estudiante con habilidades mágicas.",
+    "category": "remera"
+  },
+  {
+    "id": 20,
+    "name": "Demon Slayer - Manga",
+    "image": "slayer1.webp",
+    "price": 9000,
+    "description": "Demon Slayer sigue a Tanjiro Kamado, un joven que se convierte en cazador de demonios después de que su familia es asesinada por un demonio y su hermana Nezuko es convertida en uno. Tanjiro busca vengar a su familia y devolver a su hermana a la humanidad.",
+    "category": "producto"
+  },
+  {
+    "id": 74,
+    "name": "Naruto - Remera",
+    "image": "remera2.webp",
+    "price": 14000,
+    "description": "Una remera con una ilustración del personaje Naruto Uzumaki en su icónica pose de correr, con el emblema de su aldea en el fondo.",
+    "category": "remera"
+  },
+  {
+    "id": 45,
+    "name": "Gojo Satoru - Figura",
+    "image": "jujutsu1.jpg",
+    "price": 91000,
+    "description": "Una impresionante figura de Gojo Satoru, el carismático y poderoso personaje de Jujutsu Kaisen. Esta figura captura la fuerza y el estilo único de Gojo, convirtiéndola en un artículo imprescindible para los fans del anime.",
+    "category": "recientes"
+  }
+]

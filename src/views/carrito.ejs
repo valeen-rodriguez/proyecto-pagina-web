@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras | Anime Store</title>
+  <link rel="stylesheet" href="/sass/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+  <!--ICONO PÁGINA-->
+  <link rel="icon" href="/img/loguito.png">
+</head>
+<body>
+  <%- include('partials/header.ejs') %>
+
+<h1 class="products-title__h2">Carrito de Compras</h1>
+<div class="container--div__carrito">
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Eliminar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% cart.forEach(item => { %>
+          <tr >
+            <td><%= item.name %></td>
+            <td>$<%= toThousand(item.price) %></td>
+            <td><i class="fa fa-trash remove-product"></i></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+    <div class="total">
+      <h3>Total:</h3>
+      <p>$<%= toThousand(totalPrice) %></p>
+    </div>
+    <a href="/" class="checkout-button">Pagar</a>
+  </div>
+
+  <%- include('partials/footer.ejs') %>
+
+  <script src="/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+</body>
+</html>

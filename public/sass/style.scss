@@ -549,3 +549,48 @@ input[type="submit"]:hover {
     opacity: 0.6;
   }
 }
+
+//CARRITO//
+.container--div__carrito {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: $primary-color;
+  color: #fff;
+  width: 100px;
+}
+
+.total {
+  margin-top: 20px;
+}
+
+.checkout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.checkout-button:hover {
+  background-color: $another-pink-gradiant;
+}

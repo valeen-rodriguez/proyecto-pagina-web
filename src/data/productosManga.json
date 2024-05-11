@@ -1,46 +1,46 @@
 [
     {
-        "id": 1,
+        "id": 57,
         "name": "Fire Force - Manga",
         "image": "force1.jpg",
-        "price": "10000",
+        "price": 10000,
         "description": "Fire Force sigue las aventuras de Shinra Kusakabe, un joven bombero con la habilidad de encender sus pies a voluntad, mientras se une a la Compañía Especial de Bomberos 8 para combatir a los infernales, humanos que han explotado espontáneamente y se han convertido en infernos vivientes.",
         "category": "shonen"
     },
     {
-        "id": 2,
+        "id": 58,
         "name": "Jujutsu Kaisen - Manga",
         "image": "jujutsu1.webp",
-        "price": "14000",
+        "price": 14000,
         "description": "Jujutsu Kaisen gira en torno a Yuji Itadori, un estudiante de secundaria con habilidades atléticas excepcionales que se ve envuelto en el mundo de los malditos y las maldiciones después de tratar de salvar a sus amigos y traga un objeto maldito, convirtiéndose en el recipiente de Sukuna, el Rey de las Maldiciones.",
         "category": "shonen"
     },
     {
-        "id": 3,
+        "id": 59,
         "name": "Naruto - Manga",
         "image": "naruto1.png",
-        "price": "12000",
+        "price": 12000,
         "description": "Naruto sigue la historia de Naruto Uzumaki, un joven ninja que busca reconocimiento y sueña con convertirse en el Hokage, el líder de su aldea. A lo largo de su viaje, Naruto enfrenta desafíos, enemigos poderosos y forja fuertes lazos de amistad.",
         "category": "shonen"
     },
     {
-        "id": 4,
+        "id": 60,
         "name": "Demon Slayer - Manga",
         "image": "slayer1.webp",
-        "price": "9000",
+        "price": 9000,
         "description": "Demon Slayer sigue a Tanjiro Kamado, un joven que se convierte en cazador de demonios después de que su familia es asesinada por un demonio y su hermana Nezuko es convertida en uno. Tanjiro busca vengar a su familia y devolver a su hermana a la humanidad.",
         "category": "shonen"
     },
     {
-        "id": 5,
+        "id": 61,
         "name": "Dr. Stone - Manga",
         "image": "stone1.jpg",
-        "price": "10999",
+        "price": 10999,
         "description": "Dr. Stone presenta un mundo en el que toda la humanidad es petrificada repentinamente. Después de miles de años, Taiju despertó y junto con su amigo científico Senku, intentan reconstruir la civilización desde cero utilizando la ciencia.",
         "category": "shonen"
     },
     {
-        "id": 6,
+        "id": 62,
         "name": "One Punch Man - Manga",
         "image": "punch1.webp",
         "price": "13000",
@@ -48,82 +48,82 @@
         "category": "shonen"
     },
     {
-        "id": 7,
+        "id": 63,
         "name": "Spy Family - Manga",
         "image": "spy1.jpeg",
-        "price": "13000",
+        "price": 13000,
         "description": "Spy Family es una historia que sigue las aventuras de un espía, su falso matrimonio y su hija adoptiva, quienes forman una inusual familia. Llena de humor, acción y momentos conmovedores, esta serie sigue las misiones de esta familia disfuncional en un mundo lleno de intrigas políticas y secretos.",
         "category": "shonen"
     },
     {
-        "id": 8,
+        "id": 64,
         "name": "Attack On Titan - Manga",
         "image": "titan1.webp",
-        "price": "13000",
+        "price": 13000,
         "description": "Attack on Titan se desarrolla en un mundo donde la humanidad vive en ciudades rodeadas por enormes muros para protegerse de los titanes, gigantes humanoides devoradores de hombres. La historia sigue a Eren Yeager y sus amigos en su lucha contra los titanes y su búsqueda de la verdad sobre su mundo.",
         "category": "shonen"
     },
     {
-        "id": 9,
+        "id": 65,
         "name": "Bloom Into You - Manga",
         "image": "bloom1.png",
-        "price": "8000",
+        "price": 8000,
         "description": "Bloom Into You narra la historia de Yuu Koito, quien espera experimentar el romance como en las historias de amor que tanto le gustan, pero se sorprende al no sentir nada por su admirador. Sin embargo, su vida cambia cuando conoce a Touko Nanami, quien parece tener todo lo que Yuu anhela.",
         "category": "romance"
     },
     {
-        "id": 10,
+        "id": 66,
         "name": "Ao Haru Ride - Manga",
         "image": "haru1.avif",
-        "price": "15000",
+        "price": 15000,
         "description": "Ao Haru Ride sigue la vida de Futaba Yoshioka, quien se reencuentra con su amor de la secundaria, Kou Mabuchi, después de varios años. A través de encuentros y desencuentros, ambos enfrentan sus sentimientos pasados y presentes mientras navegan por las complejidades del amor adolescente.",
         "category": "romance"
     },
     {
-        "id": 11,
+        "id": 67,
         "name": "Horimiya - Manga",
         "image": "horimiya1.jpg",
-        "price": "12999",
+        "price": 12999,
         "description": "Horimiya sigue la relación entre Kyoko Hori, una estudiante popular y extrovertida, y Izumi Miyamura, un introvertido con una apariencia muy diferente fuera del horario escolar. A medida que comparten secretos y momentos, su amistad se transforma en algo más profundo.",
         "category": "romance"
     },
     {
-        "id": 12,
+        "id": 68,
         "name": "Kimi ni Todoke - Manga",
         "image": "kimi1.webp",
-        "price": "14000",
+        "price": 14000,
         "description": "Kimi ni Todoke cuenta la historia de Sawako Kuronuma, una chica tímida y amable que es malinterpretada por sus compañeros de clase debido a su apariencia similar a la de Sadako, un personaje de una película de terror. Su vida cambia cuando el popular Shota Kazehaya comienza a hablarle.",
         "category": "romance"
     },
     {
-        "id": 13,
+        "id": 69,
         "name": "Maid-Sama - Manga",
         "image": "maid1.jpg",
-        "price": "10000",
+        "price": 10000,
         "description": "Maid-Sama sigue a Misaki Ayuzawa, la presidenta del consejo estudiantil de una escuela secundaria que oculta su trabajo a tiempo parcial como camarera en un café de maids. Su secreto es descubierto por Takumi Usui, un chico popular, y su relación comienza a desarrollarse.",
         "category": "romance"
     },
     {
-        "id": 14,
+        "id": 70,
         "name": "Romantic Killer - Manga",
         "image": "romantick1.webp",
-        "price": "8999",
+        "price": 8999,
         "description": "Romantic Killer presenta la vida de Natsuo Fujii, un estudiante de secundaria que se ve envuelto en una complicada red de relaciones cuando tiene un romance con su profesora Hina Tachibana y, al mismo tiempo, desarrolla sentimientos por su compañera de clase Rui Tachibana, la hermana menor de Hina.",
         "category": "romance"
     },
     {
-        "id": 15,
+        "id": 71,
         "name": "Love is hard for otaku - Manga",
         "image": "otaku1.jpg",
-        "price": "7000",
+        "price": 7000,
         "description": "Una historia romántica sobre la vida de dos otakus tratando de encontrar el amor.",
         "category": "romance"
     },
     {
-        "id": 16,
+        "id": 72,
         "name": "Kamisama Kiss - Manga",
         "image": "kamisama1.webp",
-        "price": "9000",
+        "price": 9000,
         "description": "Una encantadora comedia romántica que sigue las aventuras de una chica y un dios.",
         "category": "romance"
     }

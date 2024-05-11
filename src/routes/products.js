@@ -24,9 +24,13 @@ router.get('/clothes', productsController.clothes);
 router.get('/detailClothes/:id', productsController.detailClothes);
 
 //PRODUCTOS//
-router.get('/producto', productsController.products)
-router.get('/producto/detailProducto/:id', productsController.detailProducto)
+router.get('/producto', productsController.products);
+router.get('/producto/detailProducto/:id', productsController.detailProducto);
 
+
+//CARRITO//
+router.get('/carrito', productsController.carrito);
+router.post('/addToCart', productsController.addToCart);
 
 
 

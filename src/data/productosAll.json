@@ -132,7 +132,7 @@
             "id": 17,
             "name": "Fire Force - Manga",
             "image": "force1.jpg",
-            "price": "10000",
+            "price": 10000,
             "description": "Fire Force sigue las aventuras de Shinra Kusakabe, un joven bombero con la habilidad de encender sus pies a voluntad, mientras se une a la Compañía Especial de Bomberos 8 para combatir a los infernales, humanos que han explotado espontáneamente y se han convertido en infernos vivientes.",
             "category": "producto"
         },
@@ -140,7 +140,7 @@
             "id": 18,
             "name": "Jujutsu Kaisen - Manga",
             "image": "jujutsu1.webp",
-            "price": "14000",
+            "price": 14000,
             "description": "Jujutsu Kaisen gira en torno a Yuji Itadori, un estudiante de secundaria con habilidades atléticas excepcionales que se ve envuelto en el mundo de los malditos y las maldiciones después de tratar de salvar a sus amigos y traga un objeto maldito, convirtiéndose en el recipiente de Sukuna, el Rey de las Maldiciones.",
             "category": "producto"
         },
@@ -148,7 +148,7 @@
             "id": 19,
             "name": "Naruto - Manga",
             "image": "naruto1.png",
-            "price": "12000",
+            "price": 12000,
             "description": "Naruto sigue la historia de Naruto Uzumaki, un joven ninja que busca reconocimiento y sueña con convertirse en el Hokage, el líder de su aldea. A lo largo de su viaje, Naruto enfrenta desafíos, enemigos poderosos y forja fuertes lazos de amistad.",
             "category": "producto"
         },
@@ -156,7 +156,7 @@
             "id": 20,
             "name": "Demon Slayer - Manga",
             "image": "slayer1.webp",
-            "price": "9000",
+            "price": 9000,
             "description": "Demon Slayer sigue a Tanjiro Kamado, un joven que se convierte en cazador de demonios después de que su familia es asesinada por un demonio y su hermana Nezuko es convertida en uno. Tanjiro busca vengar a su familia y devolver a su hermana a la humanidad.",
             "category": "producto"
         },
@@ -164,7 +164,7 @@
             "id": 21,
             "name": "Dr. Stone - Manga",
             "image": "stone1.jpg",
-            "price": "10999",
+            "price": 10999,
             "description": "Dr. Stone presenta un mundo en el que toda la humanidad es petrificada repentinamente. Después de miles de años, Taiju despertó y junto con su amigo científico Senku, intentan reconstruir la civilización desde cero utilizando la ciencia.",
             "category": "producto"
         },
@@ -172,7 +172,7 @@
             "id": 22,
             "name": "One Punch Man - Manga",
             "image": "punch1.webp",
-            "price": "13000",
+            "price": 13000,
             "description": "One Punch Man sigue la historia de Saitama, un héroe con un poder inigualable que puede derrotar a cualquier enemigo con un solo golpe. Sin embargo, su búsqueda de un desafío emocionante lo lleva a diversas situaciones cómicas y de acción.",
             "category": "producto"
         },
@@ -180,7 +180,7 @@
             "id": 23,
             "name": "Spy Family - Manga",
             "image": "spy1.jpeg",
-            "price": "13000",
+            "price": 13000,
             "description": "Spy Family es una historia que sigue las aventuras de un espía, su falso matrimonio y su hija adoptiva, quienes forman una inusual familia. Llena de humor, acción y momentos conmovedores, esta serie sigue las misiones de esta familia disfuncional en un mundo lleno de intrigas políticas y secretos.",
             "category": "producto"
         },
@@ -188,7 +188,7 @@
             "id": 24,
             "name": "Attack On Titan - Manga",
             "image": "titan1.webp",
-            "price": "13000",
+            "price": 13000,
             "description": "Attack on Titan se desarrolla en un mundo donde la humanidad vive en ciudades rodeadas por enormes muros para protegerse de los titanes, gigantes humanoides devoradores de hombres. La historia sigue a Eren Yeager y sus amigos en su lucha contra los titanes y su búsqueda de la verdad sobre su mundo.",
             "category": "producto"
         },
@@ -196,7 +196,7 @@
             "id": 25,
             "name": "Bloom Into You - Manga",
             "image": "bloom1.png",
-            "price": "8000",
+            "price": 8000,
             "description": "Bloom Into You narra la historia de Yuu Koito, quien espera experimentar el romance como en las historias de amor que tanto le gustan, pero se sorprende al no sentir nada por su admirador. Sin embargo, su vida cambia cuando conoce a Touko Nanami, quien parece tener todo lo que Yuu anhela.",
             "category": "producto"
         },
@@ -204,7 +204,7 @@
             "id": 26,
             "name": "Ao Haru Ride - Manga",
             "image": "haru1.avif",
-            "price": "15000",
+            "price": 15000,
             "description": "Ao Haru Ride sigue la vida de Futaba Yoshioka, quien se reencuentra con su amor de la secundaria, Kou Mabuchi, después de varios años. A través de encuentros y desencuentros, ambos enfrentan sus sentimientos pasados y presentes mientras navegan por las complejidades del amor adolescente.",
             "category": "producto"
         },
@@ -212,7 +212,7 @@
             "id": 27,
             "name": "Horimiya - Manga",
             "image": "horimiya1.jpg",
-            "price": "12999",
+            "price": 12999,
             "description": "Horimiya sigue la relación entre Kyoko Hori, una estudiante popular y extrovertida, y Izumi Miyamura, un introvertido con una apariencia muy diferente fuera del horario escolar. A medida que comparten secretos y momentos, su amistad se transforma en algo más profundo.",
             "category": "producto"
         },
@@ -220,7 +220,7 @@
             "id": 28,
             "name": "Kimi ni Todoke - Manga",
             "image": "kimi1.webp",
-            "price": "14000",
+            "price": 14000,
             "description": "Kimi ni Todoke cuenta la historia de Sawako Kuronuma, una chica tímida y amable que es malinterpretada por sus compañeros de clase debido a su apariencia similar a la de Sadako, un personaje de una película de terror. Su vida cambia cuando el popular Shota Kazehaya comienza a hablarle.",
             "category": "producto"
         },
@@ -228,7 +228,7 @@
             "id": 29,
             "name": "Maid-Sama - Manga",
             "image": "maid1.jpg",
-            "price": "10000",
+            "price": 10000,
             "description": "Maid-Sama sigue a Misaki Ayuzawa, la presidenta del consejo estudiantil de una escuela secundaria que oculta su trabajo a tiempo parcial como camarera en un café de maids. Su secreto es descubierto por Takumi Usui, un chico popular, y su relación comienza a desarrollarse.",
             "category": "producto"
         },
@@ -236,7 +236,7 @@
             "id": 30,
             "name": "Romantic Killer - Manga",
             "image": "romantick1.webp",
-            "price": "8999",
+            "price": 8999,
             "description": "Romantic Killer presenta la vida de Natsuo Fujii, un estudiante de secundaria que se ve envuelto en una complicada red de relaciones cuando tiene un romance con su profesora Hina Tachibana y, al mismo tiempo, desarrolla sentimientos por su compañera de clase Rui Tachibana, la hermana menor de Hina.",
             "category": "producto"
         },
@@ -244,7 +244,7 @@
             "id": 31,
             "name": "Love is hard for otaku - Manga",
             "image": "otaku1.jpg",
-            "price": "7000",
+            "price": 7000,
             "description": "Una historia romántica sobre la vida de dos otakus tratando de encontrar el amor.",
             "category": "producto"
         },
@@ -252,7 +252,7 @@
             "id": 32,
             "name": "Kamisama Kiss - Manga",
             "image": "kamisama1.webp",
-            "price": "9000",
+            "price": 9000,
             "description": "Una encantadora comedia romántica que sigue las aventuras de una chica y un dios.",
             "category": "producto"
         },
@@ -260,7 +260,7 @@
                 "id": 33,
                 "name": "Naruto - Remera",
                 "image": "remera1.webp",
-                "price": "15000",
+                "price": 15000,
                 "description": "Una remera con el emblema del personaje principal de Naruto, el ninja adolescente que sueña con convertirse en el Hokage de su aldea.",
                 "category": "producto"
             },
@@ -268,7 +268,7 @@
                 "id": 34,
                 "name": "Naruto - Remera",
                 "image": "remera2.webp",
-                "price": "14000",
+                "price": 14000,
                 "description": "Una remera con una ilustración del personaje Naruto Uzumaki en su icónica pose de correr, con el emblema de su aldea en el fondo.",
                 "category": "producto"
             },
@@ -276,7 +276,7 @@
                 "id": 35,
                 "name": "Bocchi - Remera",
                 "image": "remera3.webp",
-                "price": "12000",
+                "price": 12000,
                 "description": "Una remera con un diseño inspirado en el personaje de Hitori Bocchi del anime Hitori Bocchi no Marumaru Seikatsu, conocida por su timidez y su intento de hacer amigos.",
                 "category": "producto"
             },
@@ -284,7 +284,7 @@
                 "id": 36,
                 "name": "Tonari no Totoro - Remera",
                 "image": "remera4.jpg",
-                "price": "10000",
+                "price": 10000,
                 "description": "Una remera con una ilustración del adorable Totoro, el espíritu del bosque de la película de Studio Ghibli 'Mi Vecino Totoro'.",
                 "category": "producto"
             },
@@ -292,7 +292,7 @@
                 "id": 37,
                 "name": "Sailor Moon - Remera",
                 "image": "remera5.webp",
-                "price": "10999",
+                "price": 10999,
                 "description": "Una remera con el diseño del símbolo de la Luna de Sailor Moon, el icónico personaje de la serie de anime y manga 'Sailor Moon' que lucha contra el mal en el nombre de la luna.",
                 "category": "producto"
             },
@@ -300,7 +300,7 @@
                 "id": 38,
                 "name": "Jujutsu Kaisen - Remera",
                 "image": "remera6.jpg",
-                "price": "13000",
+                "price": 13000,
                 "description": "Una remera con una impresión de alta calidad del logo del anime Jujutsu Kaisen, que sigue las aventuras de Yuji Itadori, un estudiante con habilidades mágicas.",
                 "category": "producto"
             },
@@ -308,7 +308,7 @@
                 "id": 39,
                 "name": "Dragon Ball Z - Remera",
                 "image": "remera7.webp",
-                "price": "8000",
+                "price": 8000,
                 "description": "Una remera con una ilustración de Goku en su forma Super Saiyan, una de las transformaciones más icónicas del anime Dragon Ball Z.",
                 "category": "producto"
             },
@@ -316,7 +316,7 @@
                 "id": 40,
                 "name": "Dr. Stone - Remera",
                 "image": "remera8.webp",
-                "price": "15000",
+                "price": 15000,
                 "description": "Una remera con el logotipo de la serie Dr. Stone, que sigue a un grupo de personas que intentan reconstruir la civilización después de que la humanidad es petrificada repentinamente.",
                 "category": "producto"
             }

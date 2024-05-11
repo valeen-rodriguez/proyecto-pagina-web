@@ -12,7 +12,6 @@
 <body>
   <%- include('partials/header.ejs') %>
 
-	<!-- product detail -->
     <div class="container__detail__product">
         <div class="row">
           <div class="productos__contenedor__segundo">
@@ -33,8 +32,11 @@
                 </li>
               </ul>
               <div class="buttom__buy">
-              <a href="#" class="buy-now-button">COMPRAR AHORA</a>
-              <a href="#" class="buy-now-button">AGREGAR AL CARRITO</a>
+                <a href="#" class="buy-now-button">COMPRAR AHORA</a>
+                <form action="/products/addToCart" method="post">
+                  <input type="hidden" name="productId" value="<%= product.id %>">
+                  <button type="submit" class="buy-now-button">AGREGAR AL CARRITO</button>
+                </form>
               </div>
             </article>
           </div>
@@ -45,5 +47,8 @@
       </div>
       <br>
       <%- include('partials/footer.ejs') %>
+      
+      <script src="/js/script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 </body>
 </html>
