@@ -10,43 +10,14 @@
   <link rel="icon" href="/img/loguito.png">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="left-section">
-        <a href="/">
-        <h1 class="logo"><img class="img__logo" src="/img/loguito.png"></h1>
-        </a>
-      </div>
-      <div class="center-section">
-        <nav class="nav__header">
-          <ul>
-            <li><a href="/">INICIO</a></li>
-            <li class="productos-nav"><a href="#">PRODUCTOS</a>
-              <ul class="submenu">
-                <li><a href="/products/figures">FIGURAS</a></li>
-                <li><a href="#">VESTIMENTA</a></li>
-                <li><a href="#">MANGAS</a></li>
-              </ul>
-            </li>
-            <li class="contacto"><a href="#">CONTACTO</a></li>
-          </ul>
-        </nav>
-      </div>      
-      <div class="right-section">
-        <div class="icons">
-          <a href="#"><i class="fas fa-shopping-cart"></i></a>
-          <a href="/users/login"><i class="fas fa-user"></i></a>
-        </div>
-      </div>
-    </div>
-  </header>
+  <%- include('partials/header.ejs') %>
 
     
     <main>
         <div class="container__login">
           <h1>Iniciar sesión</h1>
-          <form id="registrationForm" action="/users/login" method="POST">
-            <input type="text" name="username" placeholder="Nombre de usuario" required>
+          <form id="loginForm" action="/users/login" method="POST">
+            <input type="text" name="username" placeholder="Ingrese su correo electronico" required>
             <input type="password" name="password" placeholder="Contraseña" required>
             <input src="/" type="submit" value="Iniciar sesión">
           </form>
@@ -57,11 +28,7 @@
       </main>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Tienda Anime</p>
-    </div>
-  </footer>
+  <%- include('partials/footer.ejs') %>
 
   <script src="/js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>

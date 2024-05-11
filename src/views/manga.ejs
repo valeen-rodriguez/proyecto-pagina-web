@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anime Store | Figuras</title>
+  <title>Anime Store | Mangas</title>
   <link rel="stylesheet" href="/sass/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
   <!--ICONO PÁGINA-->
@@ -11,17 +11,15 @@
 </head>
 <body>
   <%- include('partials/header.ejs') %>
-  
-  
 
   <main class="container__productos">
     <section class="productos">
-      <h2 class="section__title">FIGURAS</h2>
+      <h2 class="section__title">SHONEN</h2>
       <div class="product__shine">
         <div class="productos-container">
-          <% recents.forEach(product => { %>
+          <% shonen.forEach(product => { %>
           <div class="producto">
-            <a class="href__style" href="/products/detail/<%= product.id %>">
+            <a class="href__style" href="/products/detailManga/<%= product.id %>">
             <img class="img__width" src="/img/<%= product.image %>" alt="<%= product.name %>">
             <h3><%= product.name %></h3>
             <p>Precio: $<%= product.price %></p>
@@ -35,11 +33,14 @@
 
     <!-- SECCION 2 - PRODUCTOS RECIEN AGREGADOS -->
     <section class="productos">
+      <div class="last__add__product--title">
+        <h2 class="section__title"> ROMANCE </h2>
+      </div>
       <div class="product__shine">
         <div class="productos-container">
-          <% news.forEach(product => { %>
+          <% romance.forEach(product => { %>
           <div class="producto">
-            <a class="href__style" href="/products/detail/<%= product.id %>">
+            <a class="href__style" href="/products/detailManga/<%= product.id %>">
             <img class="img__width" src="/img/<%= product.image %>" alt="<%= product.name %>">
             <h3><%= product.name %></h3>
             <p>Precio: $<%= product.price %></p>
@@ -55,5 +56,6 @@
   <%- include('partials/footer.ejs') %>
 
   <script src="/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 </body>
 </html>

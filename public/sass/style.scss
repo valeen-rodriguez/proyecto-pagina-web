@@ -29,6 +29,16 @@ header {
   padding: 20px 0;
 }
 
+.fa-user,
+.fa-shopping-cart{
+  color: $font-color;
+  transition: color 0.1s;
+}
+
+.fa-user:hover,
+.fa-shopping-cart:hover{
+  color: $primary-color;
+}
 
 .img__logo{
     width: 100px;
@@ -354,7 +364,7 @@ input[type="submit"] {
   padding: 10px;
   margin-top: 20px;
   border: none;
-  background-color: #ff6b81;
+  background-color: $primary-color;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
@@ -362,7 +372,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #ff4757;
+  background-color: $another-pink-gradiant;
 }
 
 .link {
@@ -377,6 +387,165 @@ input[type="submit"]:hover {
 }
 
 .link a:hover {
-  color: #ff6b81;
+  color: $primary-color;
 }
 
+//////CONTACTO/////
+.section {
+  color: $font-color;
+  display: flex; 
+}
+
+.letras_tamaño{
+  color: $font-color;
+  font-size: 20px;
+}
+
+#contacto{
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+}
+
+.fa-clock,
+.fa-phone,
+.fa-envelope-circle-check{
+  font-size: 25px;
+  color: $another-pink-gradiant;
+  margin-right: 5px;
+}
+
+.fa-location-dot{
+  margin-left: 20px;
+  font-size: 30px;
+  color: $another-pink-gradiant;
+  margin-right: 5px;
+}
+
+.container__contact {
+  display: inline-block;
+  flex: 1; 
+  text-align: center; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.p_clases{
+  margin-top: 40px;
+}
+
+#horarios {
+  margin-left: 70px;
+  flex: 1; 
+  margin-top: 16%;
+  font-size: 100%;
+}
+
+.telefono-decoration{
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.email-decoration{
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  }
+
+  .main__contact{
+    display: flex;
+    justify-content: center;
+  }
+
+
+//////////BUSCADOR//////////
+.columna__search {
+  display: inline-block;
+  width: 90%;
+}
+
+.search-form_input-wrapper {
+  position: relative;
+}
+
+.search-form_input {
+  padding-right: 40px;
+}
+
+.search-form_button {
+  margin-left: 11px;
+  position: absolute;
+}
+
+.section__busqueda{
+  color: $font-color;
+}
+
+.products-title__h2{
+  margin-top: 30px;
+  color: $font-color;
+  letter-spacing: 0px;
+}
+
+
+///////////FOOTER//////////////
+.href__github{
+  color: inherit;
+}
+.footer {
+  background-color: $another-pink-gradiant;
+  color: #fff;
+  padding: 40px 0;
+
+  &__bg {
+    padding: 20px 0;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+
+  &__links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    li {
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .footer__link {
+      color: #fff;
+      text-decoration: none;
+      opacity: 0.8;
+      transition: opacity 0.3s;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__copy {
+    font-size: 14px;
+    margin-top: 20px;
+    opacity: 0.6;
+  }
+}

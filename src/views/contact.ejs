@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Store | Contacto</title>
+  <link rel="stylesheet" href="/sass/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/2eb7e79ffa.js" crossorigin="anonymous"></script>
+  <!--ICONO PÁGINA-->
+  <link rel="icon" href="/img/loguito.png">
+</head>
+<body>
+  <%- include('partials/header.ejs') %>
+
+  <main class="main__contact">
+    <section class="section">
+        <div class="container__contact">
+          <h1 dir="ltr"><span
+              style="color: rgb(77, 81, 86); font-family: arial, sans-serif; font-size: 14px;"><i class="fa-solid fa-location-dot"></i>&nbsp;</span>Dirección
+          </h1>
+          <br>
+          <h5>Primera Junta 2361, C1406, CABA, Argentina.</h5>
+          <br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.678873177033!2d-58.45936862488289!3d-34.63755455928488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2c99063957%3A0x435aa18715f1c237!2sPrimera%20Junta%202361%2C%20C1406%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1715376813649!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          </div>
+       <div id="horarios">
+        <h4 id="contacto">Contactanos:</h4>
+        <p class="p_clases" dir="ltr"><i class="fa-solid fa-clock"></i><strong class="letras_tamaño"> Horario</strong>
+          <br>
+          <p class="telefono-decoration">Lunes a Sabado de 09hs a 16hs</p></p>
+          <p class="p_clases" dir="ltr"><span style="color: rgb(77, 81, 86); font-family: arial, sans-serif; font-size: 14px;"><i class="fa-solid fa-phone"></i></span>
+            <strong class="letras_tamaño"> Teléfono (sólo Whatsapp)</strong></p>
+          <a href="https://api.whatsapp.com/send/?phone=542664312790" class="telefono-decoration">+54 1234-5678</a>
+          <br>
+          <p class="p_clases" dir="ltr"><span style="color: rgb(77, 81, 86); font-family: arial, sans-serif; font-size: 14px;"><i class="fa-solid fa-envelope-circle-check"></i></span>
+            <strong class="letras_tamaño"> Email</strong></p>
+          <a href="mystikCompany@gmail.com" class="email-decoration"> tiendaanime@hotmail.com</a><br>
+        </div>
+  </section>
+  </main>
+
+  <%- include('partials/footer.ejs') %>
+
+  <script src="/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+
+[
+    {
+      "id": 1,
+      "name": "Hatsune Miku - Figura",
+      "image": "producto1.webp",
+      "price": 80000,
+      "description": "Una impresionante figura de Hatsune Miku, el popular personaje virtual de Vocaloid. Esta figura captura perfectamente su icónico estilo y pose, siendo un imprescindible para cualquier fan de la cultura pop japonesa.",
+      "category": "producto"
+    },
+    {
+      "id": 2,
+      "name": "Hatsune Miku - Figura",
+      "image": "producto5.webp",
+      "price": 79999,
+      "description": "Otra versión increíble de la figura de Hatsune Miku, esta vez con un diseño único que resalta su belleza y carisma. Perfecta para coleccionistas y amantes del anime.",
+      "category": "producto"
+    },
+    {
+      "id": 3,
+      "name": "Hatsune Miku - Figura",
+      "image": "producto4.webp",
+      "price": 65000,
+      "description": "Una figura detallada de Hatsune Miku, diseñada con alta calidad y atención al detalle. Ideal para exhibir en tu colección o como regalo para un amigo fanático del anime.",
+      "category": "producto"
+    },
+    {
+      "id": 4,
+      "name": "Hatsune Miku - Figura",
+      "image": "producto6.webp",
+      "price": 70000,
+      "description": "Esta figura de Hatsune Miku presenta un diseño encantador y expresivo que refleja la energía y la personalidad del personaje. Una adición vibrante a cualquier colección de figuras.",
+      "category": "producto"
+    },
+    {
+      "id": 5,
+      "name": "Gojo Satoru - Figura",
+      "image": "jujutsu1.jpg",
+      "price": 91000,
+      "description": "Una impresionante figura de Gojo Satoru, el carismático y poderoso personaje de Jujutsu Kaisen. Esta figura captura la fuerza y el estilo único de Gojo, convirtiéndola en un artículo imprescindible para los fans del anime.",
+      "category": "producto"
+    },
+    {
+      "id": 6,
+      "name": "Gojo Satoru - Figura",
+      "image": "jujutsu2.webp",
+      "price": 87700,
+      "description": "Una figura detallada de Gojo Satoru, con su emblemático atuendo y expresión determinada. Esta figura es perfecta para los admiradores de Jujutsu Kaisen que desean agregar un toque de estilo a su colección.",
+      "category": "producto"
+    },
+    {
+      "id": 7,
+      "name": "Gojo Satoru - Figura",
+      "image": "jujutsu3.jpg",
+      "price": 63500,
+      "description": "Esta figura de Gojo Satoru está meticulosamente diseñada para capturar todos los detalles del personaje, desde su mirada penetrante hasta su postura segura. Un artículo imprescindible para cualquier fanático de Jujutsu Kaisen.",
+      "category": "producto"
+    },
+    {
+      "id": 8,
+      "name": "Gojo Satoru - Figura",
+      "image": "jujutsu4.jpg",
+      "price": 76000,
+      "description": "Una figura dinámica de Gojo Satoru que muestra al personaje en acción, listo para enfrentarse a cualquier desafío. Con un acabado excepcional y una atención meticulosa al detalle, esta figura es una verdadera obra de arte.",
+      "category": "producto"
+    },
+    {
+      "id": 9,
+      "name": "Manjiro Sano Mikey - Nendoroid",
+      "image": "tokyo1.jpg",
+      "price": 50000,
+      "description": "Un encantador Nendoroid de Manjiro Sano Mikey, el carismático líder de Tokyo Revengers. Esta figura captura la esencia juguetona y llena de vida del personaje, siendo una adición adorable a cualquier colección.",
+      "category": "producto"
+    },
+    {
+      "id": 10,
+      "name": "Manjiro Sano Mikey - Figura",
+      "image": "tokyo2.jpg",
+      "price": 61400,
+      "description": "Una figura detallada de Manjiro Sano Mikey, con su característico estilo y actitud relajada. Perfecta para los seguidores de Tokyo Revengers que desean tener a su personaje favorito en su estantería.",
+      "category": "producto"
+    },
+    {
+      "id": 11,
+      "name": "One Set Anime Tokyo Revengers - Nendoroid",
+      "image": "tokyo3.webp",
+      "price": 199999,
+      "description": "Este Nendoroid de One Set Anime Tokyo Revengers es una pieza impresionante que captura la esencia del popular anime. Con múltiples accesorios y expresiones intercambiables, esta figura permite recrear escenas emocionantes del anime y añadir un toque de diversión a tu colección.",
+      "category": "producto"
+    },
+    {
+      "id": 12,
+      "name": "Manjiro Sano Mikey - Figura",
+      "image": "tokyo4.jpg",
+      "price": 83000,
+      "description": "Una figura detallada de Manjiro Sano Mikey, el líder carismático de Tokyo Revengers. Con su postura segura y su expresión determinada, esta figura es perfecta para los fans del anime que quieren celebrar a su personaje favorito.",
+      "category": "producto"
+    },
+    {
+      "id": 13,
+      "name": "Shigeo Kageyama - Figura",
+      "image": "psycho1.jpg",
+      "price": 85700,
+      "description": "Esta figura de Shigeo Kageyama, también conocido como Mob, presenta al protagonista de Mob Psycho 100 en una pose dinámica y llena de energía. Con detalles impresionantes y un acabado de alta calidad, esta figura es una verdadera joya para los coleccionistas.",
+      "category": "producto"
+    },
+    {
+      "id": 14,
+      "name": "Shigeo Kageyama - Nendoroid",
+      "image": "psycho2.webp",
+      "price": 63500,
+      "description": "Un adorable Nendoroid de Shigeo Kageyama, el personaje principal de Mob Psycho 100. Con múltiples expresiones faciales y accesorios, esta figura permite recrear las diferentes facetas de Mob y añadir un toque de diversión a tu colección.",
+      "category": "producto"
+    },
+    {
+      "id": 15,
+      "name": "Arataka Reigen - Nendoroid",
+      "image": "psycho3.webp",
+      "price": 63500,
+      "description": "Este Nendoroid de Arataka Reigen, el carismático y misterioso dueño de Spirits & Such Consultation Office, es una adición imprescindible para los fans de Mob Psycho 100. Con accesorios como una taza de café y una sonrisa confiada, esta figura captura perfectamente la personalidad única de Reigen.",
+      "category": "producto"
+    },
+    {
+      "id": 16,
+      "name": "Arataka Reigen - Figura",
+      "image": "psycho4.webp",
+      "price": 87800,
+      "description": "Una figura detallada de Arataka Reigen, con su característico traje y postura segura. Esta figura es perfecta para los admiradores de Mob Psycho 100 que desean tener a su personaje favorito en su estantería y añadir un toque de estilo a su colección.",
+      "category": "producto"
+    },
+        {
+            "id": 17,
+            "name": "Fire Force - Manga",
+            "image": "force1.jpg",
+            "price": "10000",
+            "description": "Fire Force sigue las aventuras de Shinra Kusakabe, un joven bombero con la habilidad de encender sus pies a voluntad, mientras se une a la Compañía Especial de Bomberos 8 para combatir a los infernales, humanos que han explotado espontáneamente y se han convertido en infernos vivientes.",
+            "category": "producto"
+        },
+        {
+            "id": 18,
+            "name": "Jujutsu Kaisen - Manga",
+            "image": "jujutsu1.webp",
+            "price": "14000",
+            "description": "Jujutsu Kaisen gira en torno a Yuji Itadori, un estudiante de secundaria con habilidades atléticas excepcionales que se ve envuelto en el mundo de los malditos y las maldiciones después de tratar de salvar a sus amigos y traga un objeto maldito, convirtiéndose en el recipiente de Sukuna, el Rey de las Maldiciones.",
+            "category": "producto"
+        },
+        {
+            "id": 19,
+            "name": "Naruto - Manga",
+            "image": "naruto1.png",
+            "price": "12000",
+            "description": "Naruto sigue la historia de Naruto Uzumaki, un joven ninja que busca reconocimiento y sueña con convertirse en el Hokage, el líder de su aldea. A lo largo de su viaje, Naruto enfrenta desafíos, enemigos poderosos y forja fuertes lazos de amistad.",
+            "category": "producto"
+        },
+        {
+            "id": 20,
+            "name": "Demon Slayer - Manga",
+            "image": "slayer1.webp",
+            "price": "9000",
+            "description": "Demon Slayer sigue a Tanjiro Kamado, un joven que se convierte en cazador de demonios después de que su familia es asesinada por un demonio y su hermana Nezuko es convertida en uno. Tanjiro busca vengar a su familia y devolver a su hermana a la humanidad.",
+            "category": "producto"
+        },
+        {
+            "id": 21,
+            "name": "Dr. Stone - Manga",
+            "image": "stone1.jpg",
+            "price": "10999",
+            "description": "Dr. Stone presenta un mundo en el que toda la humanidad es petrificada repentinamente. Después de miles de años, Taiju despertó y junto con su amigo científico Senku, intentan reconstruir la civilización desde cero utilizando la ciencia.",
+            "category": "producto"
+        },
+        {
+            "id": 22,
+            "name": "One Punch Man - Manga",
+            "image": "punch1.webp",
+            "price": "13000",
+            "description": "One Punch Man sigue la historia de Saitama, un héroe con un poder inigualable que puede derrotar a cualquier enemigo con un solo golpe. Sin embargo, su búsqueda de un desafío emocionante lo lleva a diversas situaciones cómicas y de acción.",
+            "category": "producto"
+        },
+        {
+            "id": 23,
+            "name": "Spy Family - Manga",
+            "image": "spy1.jpeg",
+            "price": "13000",
+            "description": "Spy Family es una historia que sigue las aventuras de un espía, su falso matrimonio y su hija adoptiva, quienes forman una inusual familia. Llena de humor, acción y momentos conmovedores, esta serie sigue las misiones de esta familia disfuncional en un mundo lleno de intrigas políticas y secretos.",
+            "category": "producto"
+        },
+        {
+            "id": 24,
+            "name": "Attack On Titan - Manga",
+            "image": "titan1.webp",
+            "price": "13000",
+            "description": "Attack on Titan se desarrolla en un mundo donde la humanidad vive en ciudades rodeadas por enormes muros para protegerse de los titanes, gigantes humanoides devoradores de hombres. La historia sigue a Eren Yeager y sus amigos en su lucha contra los titanes y su búsqueda de la verdad sobre su mundo.",
+            "category": "producto"
+        },
+        {
+            "id": 25,
+            "name": "Bloom Into You - Manga",
+            "image": "bloom1.png",
+            "price": "8000",
+            "description": "Bloom Into You narra la historia de Yuu Koito, quien espera experimentar el romance como en las historias de amor que tanto le gustan, pero se sorprende al no sentir nada por su admirador. Sin embargo, su vida cambia cuando conoce a Touko Nanami, quien parece tener todo lo que Yuu anhela.",
+            "category": "producto"
+        },
+        {
+            "id": 26,
+            "name": "Ao Haru Ride - Manga",
+            "image": "haru1.avif",
+            "price": "15000",
+            "description": "Ao Haru Ride sigue la vida de Futaba Yoshioka, quien se reencuentra con su amor de la secundaria, Kou Mabuchi, después de varios años. A través de encuentros y desencuentros, ambos enfrentan sus sentimientos pasados y presentes mientras navegan por las complejidades del amor adolescente.",
+            "category": "producto"
+        },
+        {
+            "id": 27,
+            "name": "Horimiya - Manga",
+            "image": "horimiya1.jpg",
+            "price": "12999",
+            "description": "Horimiya sigue la relación entre Kyoko Hori, una estudiante popular y extrovertida, y Izumi Miyamura, un introvertido con una apariencia muy diferente fuera del horario escolar. A medida que comparten secretos y momentos, su amistad se transforma en algo más profundo.",
+            "category": "producto"
+        },
+        {
+            "id": 28,
+            "name": "Kimi ni Todoke - Manga",
+            "image": "kimi1.webp",
+            "price": "14000",
+            "description": "Kimi ni Todoke cuenta la historia de Sawako Kuronuma, una chica tímida y amable que es malinterpretada por sus compañeros de clase debido a su apariencia similar a la de Sadako, un personaje de una película de terror. Su vida cambia cuando el popular Shota Kazehaya comienza a hablarle.",
+            "category": "producto"
+        },
+        {
+            "id": 29,
+            "name": "Maid-Sama - Manga",
+            "image": "maid1.jpg",
+            "price": "10000",
+            "description": "Maid-Sama sigue a Misaki Ayuzawa, la presidenta del consejo estudiantil de una escuela secundaria que oculta su trabajo a tiempo parcial como camarera en un café de maids. Su secreto es descubierto por Takumi Usui, un chico popular, y su relación comienza a desarrollarse.",
+            "category": "producto"
+        },
+        {
+            "id": 30,
+            "name": "Romantic Killer - Manga",
+            "image": "romantick1.webp",
+            "price": "8999",
+            "description": "Romantic Killer presenta la vida de Natsuo Fujii, un estudiante de secundaria que se ve envuelto en una complicada red de relaciones cuando tiene un romance con su profesora Hina Tachibana y, al mismo tiempo, desarrolla sentimientos por su compañera de clase Rui Tachibana, la hermana menor de Hina.",
+            "category": "producto"
+        },
+        {
+            "id": 31,
+            "name": "Love is hard for otaku - Manga",
+            "image": "otaku1.jpg",
+            "price": "7000",
+            "description": "Una historia romántica sobre la vida de dos otakus tratando de encontrar el amor.",
+            "category": "producto"
+        },
+        {
+            "id": 32,
+            "name": "Kamisama Kiss - Manga",
+            "image": "kamisama1.webp",
+            "price": "9000",
+            "description": "Una encantadora comedia romántica que sigue las aventuras de una chica y un dios.",
+            "category": "producto"
+        },
+            {
+                "id": 33,
+                "name": "Naruto - Remera",
+                "image": "remera1.webp",
+                "price": "15000",
+                "description": "Una remera con el emblema del personaje principal de Naruto, el ninja adolescente que sueña con convertirse en el Hokage de su aldea.",
+                "category": "producto"
+            },
+            {
+                "id": 34,
+                "name": "Naruto - Remera",
+                "image": "remera2.webp",
+                "price": "14000",
+                "description": "Una remera con una ilustración del personaje Naruto Uzumaki en su icónica pose de correr, con el emblema de su aldea en el fondo.",
+                "category": "producto"
+            },
+            {
+                "id": 35,
+                "name": "Bocchi - Remera",
+                "image": "remera3.webp",
+                "price": "12000",
+                "description": "Una remera con un diseño inspirado en el personaje de Hitori Bocchi del anime Hitori Bocchi no Marumaru Seikatsu, conocida por su timidez y su intento de hacer amigos.",
+                "category": "producto"
+            },
+            {
+                "id": 36,
+                "name": "Tonari no Totoro - Remera",
+                "image": "remera4.jpg",
+                "price": "10000",
+                "description": "Una remera con una ilustración del adorable Totoro, el espíritu del bosque de la película de Studio Ghibli 'Mi Vecino Totoro'.",
+                "category": "producto"
+            },
+            {
+                "id": 37,
+                "name": "Sailor Moon - Remera",
+                "image": "remera5.webp",
+                "price": "10999",
+                "description": "Una remera con el diseño del símbolo de la Luna de Sailor Moon, el icónico personaje de la serie de anime y manga 'Sailor Moon' que lucha contra el mal en el nombre de la luna.",
+                "category": "producto"
+            },
+            {
+                "id": 38,
+                "name": "Jujutsu Kaisen - Remera",
+                "image": "remera6.jpg",
+                "price": "13000",
+                "description": "Una remera con una impresión de alta calidad del logo del anime Jujutsu Kaisen, que sigue las aventuras de Yuji Itadori, un estudiante con habilidades mágicas.",
+                "category": "producto"
+            },
+            {
+                "id": 39,
+                "name": "Dragon Ball Z - Remera",
+                "image": "remera7.webp",
+                "price": "8000",
+                "description": "Una remera con una ilustración de Goku en su forma Super Saiyan, una de las transformaciones más icónicas del anime Dragon Ball Z.",
+                "category": "producto"
+            },
+            {
+                "id": 40,
+                "name": "Dr. Stone - Remera",
+                "image": "remera8.webp",
+                "price": "15000",
+                "description": "Una remera con el logotipo de la serie Dr. Stone, que sigue a un grupo de personas que intentan reconstruir la civilización después de que la humanidad es petrificada repentinamente.",
+                "category": "producto"
+            }
+]
