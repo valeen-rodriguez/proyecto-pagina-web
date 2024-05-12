@@ -22,7 +22,7 @@
             <a class="href__style" href="/products/detailManga/<%= product.id %>">
             <img class="img__width" src="/img/<%= product.image %>" alt="<%= product.name %>">
             <h3><%= product.name %></h3>
-            <p>Precio: $<%= product.price %></p>
+            <p>Precio: $<%= toThousand(product.price) %></p>
             <button>Comprar</button>
           </a>
           </div>
@@ -43,7 +43,7 @@
             <a class="href__style" href="/products/detailManga/<%= product.id %>">
             <img class="img__width" src="/img/<%= product.image %>" alt="<%= product.name %>">
             <h3><%= product.name %></h3>
-            <p>Precio: $<%= product.price %></p>
+            <p>Precio: $<%= toThousand(product.price) %></p>
             <button>Comprar</button>
             </a>
           </div>

@@ -121,16 +121,18 @@ const controller = {
 	},
 
 	
-	//CARRITO//
+	// CARRITO, AGREGAR & ELIMINAR//
 	carrito: (req, res) => {
+		const carrito = getCart();
+		const isEmpty = carrito.length === 0;
 		const productsJson = getJson();
 		const productManga = keepJson();
 		const productClothes = nowJson();
 		const productsAll = getProductosAll();
 		const products = [...productsJson, ...productsAll, ...productManga, ...productClothes];
 		const totalPrice = calcularPrecioTotal(carrito);
-		res.render('carrito', { cart: carrito, products: products, toThousand, totalPrice });
-	},
+		res.render('carrito', { cart: carrito, products: products, toThousand, totalPrice, isEmpty });
+	},	
 	
 	addToCart: (req, res) => {
 		const productId = req.body.productId;
@@ -147,6 +149,17 @@ const controller = {
 			res.redirect('/products/carrito');
 		} else {
 			res.status(404).send('Producto no encontrado');
+		}
+	},
+
+	removeAllFromCart: (req, res) => {
+		try {
+			let carrito = [];
+			saveCart(carrito);
+			res.redirect('/products/carrito');
+		} catch (error) {
+			console.error('Error al eliminar elementos del carrito:', error);
+			res.status(500).send('Error al eliminar elementos del carrito');
 		}
 	}
 

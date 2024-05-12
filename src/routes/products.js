@@ -27,11 +27,9 @@ router.get('/detailClothes/:id', productsController.detailClothes);
 router.get('/producto', productsController.products);
 router.get('/producto/detailProducto/:id', productsController.detailProducto);
 
-
 //CARRITO//
 router.get('/carrito', productsController.carrito);
 router.post('/addToCart', productsController.addToCart);
-
-
+router.post('/removeAllFromCart', productsController.removeAllFromCart);
 
 module.exports = router;

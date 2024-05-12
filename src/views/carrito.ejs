@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrito de Compras | Anime Store</title>
+  <title>Anime Store | Carrito de Compras</title>
   <link rel="stylesheet" href="/sass/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
   <!--ICONO PÁGINA-->
@@ -12,34 +12,39 @@
 <body>
   <%- include('partials/header.ejs') %>
 
-<h1 class="products-title__h2">Carrito de Compras</h1>
-<div class="container--div__carrito">
-    <table>
-      <thead>
-        <tr>
-          <th>Producto</th>
-          <th>Precio</th>
-          <th>Eliminar</th>
-        </tr>
-      </thead>
-      <tbody>
-        <% cart.forEach(item => { %>
-          <tr >
-            <td><%= item.name %></td>
-            <td>$<%= toThousand(item.price) %></td>
-            <td><i class="fa fa-trash remove-product"></i></td>
-          </tr>
-        <% }); %>
-      </tbody>
-    </table>
-    <div class="total">
-      <h3>Total:</h3>
-      <p>$<%= toThousand(totalPrice) %></p>
-    </div>
-    <a href="/" class="checkout-button">Pagar</a>
+  <h1 class="products-title__h2">Carrito de Compras</h1>
+  <div class="container--div__carrito">
+    <% if (isEmpty) { %>
+        <p>No hay productos en el carrito. <a href="/">Agrega algunos.</a></p>
+    <% } else { %>
+        <table>
+          <thead>
+            <tr>
+              <th>Imagen</th>
+              <th>Producto</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% cart.forEach(item => { %>
+              <tr>
+                <td><img src="/img/<%= item.image %>" alt="product image" class="product__carrito__img"></td>
+                <td><%= item.name %></td>
+                <td>$<%= toThousand(item.price) %></td>
+              </tr>
+            <% }); %>
+          </tbody>
+        </table>
+        <div class="total">
+          <h3>Total:</h3>
+          <p>$<%= toThousand(totalPrice) %></p>
+        </div>
+        <div class="button__buy__delete">
+        <button class="comprarTodo"><a href="/">Eliminar todo el carrito</a></button>
+        <button class="comprarTodo"><a href="/">Pagar</a></button>
+        </div>
+      <% } %>
   </div>
-
-  <%- include('partials/footer.ejs') %>
 
   <script src="/js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>

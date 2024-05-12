@@ -10,8 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     productosMenu.addEventListener('mouseleave', function() {
       submenu.style.display = 'none';
     });
-  });
-
+});
 
 ///// CARRITO ///////
 const contGrid = document.querySelector(".contGrid");
@@ -70,6 +69,7 @@ try {
                     tdDos.innerHTML = producto.precio;
 
                     const tdGen = document.querySelectorAll('.obtjst');
+
                     if (tdGen.length === 0) {
                         tr.appendChild(tdUno);
                         tr.appendChild(tdDos);
@@ -99,24 +99,22 @@ try {
     console.error('Error', e);
 }
 
-
-//BORRAR (AUN NO FUNCIONA)
-document.addEventListener('DOMContentLoaded', function() {
-  const removeButtons = document.querySelectorAll('.remove-product');
-  const totalElement = document.querySelector('.total p');
-
-  removeButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      const tr = this.closest('tr');
-      const priceText = tr.querySelector('td:nth-child(2)').innerText.replace('$', '').replace(',', '');
-      const price = parseFloat(priceText);
-
-      tr.remove();
-
-      const currentTotal = parseFloat(totalElement.innerText.replace('$', '').replace(',', ''));
-      const newTotal = currentTotal - price;
-
-      totalElement.innerText = '$' + newTotal.toLocaleString(undefined, { minimumFractionDigits: 2 });
-    });
-  });
+//// BOTON BORRAR CARRITO ////
+btnC.addEventListener('click', async (e) => {
+    try {
+        console.log('Iniciando solicitud para eliminar elementos del carrito...');
+        const response = await fetch('/products/removeAllFromCart', {
+            method: 'POST',
+        });
+        console.log('Se recibio la respuesta', response);
+        if (response.ok) {
+            console.log('Eliminando productos');
+            window.location.reload();
+        } else {
+            console.error('Error eliminar del carrito:', response.statusText);
+            alert('Hubo un error al eliminar los elementos del carrito');
+        }
+    } catch (error) {
+        console.error('Error con los datos del carrito:', error);
+    }
 });
