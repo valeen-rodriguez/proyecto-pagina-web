@@ -12,41 +12,90 @@
 <body>
   <%- include('partials/header.ejs') %>
 
-  <h1 class="products-title__h2">Carrito de Compras</h1>
-  <div class="container--div__carrito">
-    <% if (isEmpty) { %>
-        <p>No hay productos en el carrito. <a href="/">Agrega algunos.</a></p>
-    <% } else { %>
-        <table>
-          <thead>
-            <tr>
-              <th>Imagen</th>
-              <th>Producto</th>
-              <th>Precio</th>
-            </tr>
-          </thead>
-          <tbody>
-            <% cart.forEach(item => { %>
+  <div class="container__compra">
+    <!-- Carrito de Compras -->
+    <div class="carrito">
+      <h1 class="products-title__h2">Productos en el carrito</h1>
+      <div class="container--div__carrito">
+        <% if (isEmpty) { %>
+          <p>No hay productos en el carrito. <a href="/">Agrega algunos.</a></p>
+        <% } else { %>
+          <table>
+            <thead>
               <tr>
-                <td><img src="/img/<%= item.image %>" alt="product image" class="product__carrito__img"></td>
-                <td><%= item.name %></td>
-                <td>$<%= toThousand(item.price) %></td>
+                <th>Imagen</th>
+                <th>Producto</th>
+                <th>Precio</th>
               </tr>
-            <% }); %>
-          </tbody>
-        </table>
-        <div class="total">
-          <h3>Total:</h3>
-          <p>$<%= toThousand(totalPrice) %></p>
-        </div>
-        <div class="button__buy__delete">
-        <button class="comprarTodo"><a href="/">Eliminar todo el carrito</a></button>
-        <button class="comprarTodo"><a href="/">Pagar</a></button>
-        </div>
-      <% } %>
-  </div>
+            </thead>
+            <tbody>
+              <% cart.forEach(item => { %>
+                <tr>
+                  <td><img src="/img/<%= item.image %>" alt="product image" class="product__carrito__img"></td>
+                  <td><%= item.name %></td>
+                  <td>$<%= toThousand(item.price) %></td>
+                </tr>
+              <% }); %>
+            </tbody>
+          </table>
+          <div class="total">
+            <h3 class="price-cell">Total:</h3>ㅤ
+            <p class="price-cell">$<%= toThousand(totalPrice) %></p>
+          </div>
+          <div class="button__buy__delete">
+            <button class="comprarTodo"><a href="/">Eliminar el carrito</a></button>
+          </div>
+        <% } %>
+      </div>
+    </div>
 
+    <!-- Línea Vertical -->
+    <div class="v-line"></div>
+
+    <!-- Formulario de Compra -->
+    <div class="compra">
+      <h1 class="products-title__h2">Confirmación de compra</h1>
+      <div class="container--form__compra">
+        <div class="div__form__pago">
+          <p>Datos personales</p>
+          <div class="inputs__holder__form">
+            <input type="text" name="nombre_completo" placeholder="Nombre completo">
+            <input type="text" name="telefono" placeholder="Número de telefono">
+            <input type="text" name="email" placeholder="Email válido">
+            <input type="text" name="direccion" placeholder="Dirección de entrega">
+          </div>
+
+          <p>Método de pago</p>
+          <ul class="ul__opciones">
+            <li class="opciones__elegir">
+              <input type="radio" name="opcion_tarjeta" class="input__opcion" value="visa">Tarjeta de crédito
+              <img src="/img/visa1.png" alt="product image" class="img__tarj">
+              <img src="/img/american2.webp" alt="product image" class="img__tarj">
+              <img src="/img/master1.png" alt="product image" class="img__tarj">
+              <img src="/img/dinersclub1.png" alt="product image" class="img__tarj">
+            </li>
+            <hr>
+            <li class="opciones__elegir">
+              <input type="radio" name="opcion_tarjeta" class="input__opcion" value="master">Tarjeta de crédito
+              <img src="/img/visa1.png" alt="product image" class="img__tarj">
+              <img src="/img/master1.png" alt="product image" class="img__tarj">
+            </li>
+            <hr>
+            <li class="opciones__elegir">
+              <input type="radio" name="opcion_tarjeta" class="input__opcion" value="mercado">Transferencia bancaria
+              <img src="/img/mercadolibr1.png" alt="product image" class="img__tarj">
+            </li>
+            <hr>
+          </ul>    
+
+          <div class="compra__confirmar">
+            <button class="comprarFinalizada">Finalizar compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="/js/script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
